@@ -1,4 +1,4 @@
 # YoursChocolaty
-run the files in vs code
-install python latest version
-run the project in python kernel
+Step 1:Run the files in vs code
+Step 2:install python latest version
+Step 3:Run the project in python kernel
