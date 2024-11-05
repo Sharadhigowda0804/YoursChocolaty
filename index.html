@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoursChocolaty</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to YoursChocolaty</h1>
+   
+    
+    <h2>Suggest a Flavor</h2>
+    <form action="/suggest" method="post">
+        <label for="flavor_id">Flavor ID:</label>
+        <input type="text" id="flavor_id" name="flavor_id" required>
+        <br>
+        <label for="customer_name">Your Name:</label>
+        <input type="text" id="customer_name" name="customer_name" required>
+        <br>
+        <label for="allergies">Allergies (if any):</label>
+        <input type="text" id="allergies" name="allergies">
+        <br>
+        <input type="submit" value="Submit Suggestion">
+    </form>
+</body>
+</html>

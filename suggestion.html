@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggest a Flavor</title>
+</head>
+<body>
+    <h1>Suggest a New Flavor</h1>
+    <form action="/suggest" method="post">
+        <label for="flavor_id">Flavor ID:</label>
+        <input type="text" id="flavor_id" name="flavor_id" required>
+        <br>
+        <label for="customer_name">Your Name:</label>
+        <input type="text" id="customer_name" name="customer_name" required>
+        <br>
+        <label for="allergies">Allergies (if any):</label>
+        <input type="text" id="allergies" name="allergies">
+        <br>
+        <input type="submit" value="Submit Suggestion">
+    </form>
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>
